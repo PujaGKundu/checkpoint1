@@ -108,7 +108,36 @@ hr{
     width: 500px;
     border-style: dotted;
 }
+img{
+    height: 250px;
+    width: 250px;
+}
+.parent{
+    width: 660px;
+    border: 2px solid black;
+    margin: 24px auto;
+    font-size: 0;
+}
+.child{
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+    background-color: gray;
+    display: inline-block;
+}
+.border{
+    border: 2px solid black;
+    box-sizing: border-box;
+}
 .mark{
     margin: 0 32px;
+    display: inline-block;
+}
+.parent1{
+    margin: 24px auto;
+    font-size: 0;
+}
+.child1{
+    margin: 10px;
     display: inline-block;
 }
